@@ -1,0 +1,212 @@
+body {
+    background: #F0F0F5;
+    -webkit-font-smoothing: antialiased;
+    color: #6C6C80;
+    margin-top: 30px;
+}
+
+body, input, button {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Ubuntu;
+    color: #114B5F;
+}
+
+#page-points p {
+  line-height: 30px;
+}
+
+#page-points .alt h1 {
+  padding-bottom: 6%;
+  padding-top: 2%;
+}
+
+#page-points .return {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  right: 10%;
+  position: absolute;
+  margin: 30px 0px 30px;
+  color: #114B5F;
+}
+
+#page-points .info {
+  padding-right: 20%;
+  text-align: center;
+}
+
+#page-points .info img {
+  width:40%; 
+  height: 40%;
+}
+
+#page-points .header img {
+  width: 150px; 
+  height: 50px; 
+  margin: 10px 0px 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+/* >> form << */
+
+#page-points form {
+  padding: 20px;
+  background: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  width: 100%;
+}
+
+#page-points form .field {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#page-points form fieldset {
+  min-inline-size: auto;
+  border: 0;
+  width: 100%;
+}
+
+#page-points .field select {
+  flex: 1;
+  background: #F0F0F5;
+  border-radius: 8px;
+  border: 0;
+  padding: 12px 24px;
+  color: #6C6C80;
+}
+
+#page-points form input[type="text"] {
+  flex: 1;
+  width: 100%;
+  background: #F0F0F5;
+  border-radius: 8px;
+  border: 0;
+  padding: 12px 24px;
+  color: #6C6C80;
+}
+
+ #page-points form .radio {
+  margin-left:10%;
+} 
+
+#page-points form label {
+  display: flex;
+  font-size: 16px;
+  padding: 10px 0px 8px 0px;
+  line-height: 23px;
+}
+
+#page-points form button {
+  width: 100%;
+  height: 50px;
+  background: #34CB79;
+  border-radius: 8px;
+  color: #FFF;
+  border: 0;
+  transition: background-color 0.2s;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+#page-points form button:hover {
+  background: #2FB86E;
+}
+
+
+/* >> alterar dados << */
+
+#page-points .buttonEdit a {
+  width: 98%;
+  height: 50px;
+  background: #F0F0F5;
+  border-radius: 8px;
+  text-decoration: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  
+}
+
+#page-points .buttonEdit a strong {
+  flex: 1;
+  text-align: center;
+  color: #2FB86E;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+#page-points .buttonEdit a:hover {
+  background: rgba(0, 0, 0, 0.08);
+  color: #FFF;
+  transition: background-color 0.5s;
+}
+
+#page-points .notRegister {
+  text-align: center;
+}
+#page-points .notRegister img {
+  width: 25%;
+  height: 25%;
+}
+#page-points .notRegister p b {
+  font-size: 30px;
+}
+
+#page-points .footer img {
+  width: 32px;
+  height: 32px;
+  margin-right: 3%;
+}
+ 
+#page-points .footer .contactAlign {
+  text-align: right;
+}
+
+
+/* botao deletar */
+#page-points .deleteForm {
+  background: none;
+  margin-top: -30px;
+}
+
+#page-points .deleteForm button {
+  background: #DF0101;
+}
+
+#page-points .deleteForm button:hover {
+  background:#B40404;
+}
+
+@media (max-width: 739px) {
+
+  #page-points .header {
+    text-align: left;
+  }
+
+  #page-points .info {
+    padding-right: 0%;
+  } 
+  
+  #page-points form .radio {
+    margin-left:5%;
+  }
+
+
+  #page-points .footer .contactAlign, .social {
+    text-align: center;
+   }
+  
+}

@@ -1,0 +1,307 @@
+body {
+    background: #F0F0F5;
+    -webkit-font-smoothing: antialiased;
+    color: #6C6C80;
+}
+
+body, input, button {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Ubuntu;
+}
+
+#page-home {
+    height: 100vh;
+    background: url('../../assets/ico-background.svg') no-repeat 550px;
+}
+
+#page-home #home {
+  margin-bottom: 50px;
+}
+
+#page-home .header img {
+  width: 225px; 
+  height: 75px; 
+  margin: 10px 0px 30px;
+}
+
+#page-home .alt {
+  margin: -10px 0px 30px 0px;
+}
+
+#page-home .cursor {
+  cursor: pointer;
+}
+
+#page-home main p {
+    line-height: 25px;
+}
+
+#page-home main h1 {
+  color: #114B5F;
+  font-size: 40px;
+}
+
+#page-home main h2 {
+  margin-top: 40px;
+  color: #1A936F;
+  font-size: 25px;
+}
+
+#page-home #home {
+  padding: 0 0 7% 0;
+}
+
+/* >> Button << */
+
+#page-home main #button a {
+    width: 100%;
+    height: 50px;
+    background: #34CB79;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+  
+#page-home main #button a span {
+    background: rgba(0, 0, 0, 0.08);
+    height: 50px;
+    width: 50px;
+    border-radius: 8px 0px 0px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+    color: #FFF;
+}
+  
+#page-home main #button a strong {
+    flex: 1;
+    text-align: center;
+    color: #FFF;
+    letter-spacing: 3px;
+    font-size: 14px;
+    margin-right: 55px;
+}
+  
+#page-home main #button a:hover {
+    background: #1A936F;
+    transition: background-color 0.5s;
+}
+  
+#page-home main #button .btnAcess a {
+    background-color: #FFF;
+    margin-top: 20px;
+}
+  
+#page-home main #button .btnAcess a strong {
+    margin-right: 0px;
+    color: #34CB79;
+}
+  
+#page-home main #button .btnAcess a:hover {
+    background: rgba(0, 0, 0, 0.08);
+    color: #FFF;
+    transition: background-color 0.5s;
+}
+
+/* >> Form - Login << */
+
+#page-home form {
+    padding: 20px;
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+  }
+
+#page-home form .field {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+  
+  #page-home form .field input {
+    flex: 1;
+    background: #F0F0F5;
+    border-radius: 8px;
+    border: 0;
+    padding: 12px 24px;
+    color: #6C6C80;
+  }
+  
+  #page-home form .field label {
+    font-size: 16px;
+    padding: 10px 0px 8px 0px;
+  }
+  
+  #page-home form button {
+    width: 100%;
+    height: 50px;
+    background: #34CB79;
+    border-radius: 8px;
+    color: #FFF;
+    border: 0;
+    transition: background-color 0.2s;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  #page-home form button:hover {
+    background: #2FB86E;
+  }
+
+  #page-home form .center {
+    text-align: center;
+  }
+
+  /* >> class="marb" << */
+
+  #page-home .marb {
+    background-color: #C6DABF;
+    border-radius: 8px;
+    padding: 15px 0px 20px 0px;
+    text-align: -webkit-center;
+  }
+
+  #page-home .marb main img {
+    width: 140px; 
+    height: 140px;
+  }
+
+
+  #page-home .marb main p {
+    width: 70%;
+    text-align: justify;
+  }
+
+  /* >> class="city"<< */
+
+  #page-home .city .counter {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  #page-home .city .counter .center {
+    text-align: right;
+    width: 100%;
+  }
+
+  #page-home .city img {
+    width: 100%; 
+    height: 100%;
+  }
+
+  /* >> class="team" << */
+
+#page-home .team {
+  background-color: #C6DABF;
+  border-radius: 8px;
+  padding: 15px 0px 20px 0px;
+  text-align: center;
+}
+
+#page-home .team .teamSpace {
+  padding: 0px 15% 0px 15%;
+}
+
+/* >> form - contact << */
+
+#page-home .message h1 {
+  color: #1A936F;
+  font-size: 35px;
+  text-align: center;
+}
+#page-home .message form {
+  padding: 20px 20px 20px 20px;
+}
+
+#page-home form fieldset {
+  min-inline-size: auto;
+  border: 0;
+  width: 100%;
+}
+
+#page-home .field select {
+  flex: 1;
+  background: #F0F0F5;
+  border-radius: 8px;
+  border: 0;
+  padding: 12px 24px;
+  color: #6C6C80;
+}
+
+#page-home .field textarea {
+  flex: 1;
+  background: #F0F0F5;
+  border-radius: 8px;
+  border: 0;
+  padding: 20px 24px;
+  color: #6C6C80;
+  resize: none;
+}
+
+/* >> class="footer" << */
+
+#page-home .footer img {
+  width: 32px;
+  height: 32px;
+  margin-right: 3%;
+}
+
+#page-home .footer .contactAlign {
+  text-align: right;
+}
+
+
+@media (max-width: 739px) {
+  .container {
+    text-align: center;
+  }
+
+  #page-home form {
+    text-align: left;
+  }
+
+  #page-home .city .counter {
+    height: 50%;
+  }
+  #page-home .city .counter .center {
+    text-align: center;
+  }
+
+  #page-home .footer .contactAlign {
+    text-align: center;
+  }
+
+  #page-home .marb main h1 {
+    width: 70%;
+    text-align: center;
+  }
+
+  #page-home .team {
+    text-align: justify;
+  }
+
+  #page-home .team h1 {
+    text-align: center;
+  }
+
+  #page-home .city img {
+    margin: 0;
+    margin-bottom: 10%;
+  }
+
+}  
+
+@media (max-width: 450px) {
+  #page-home .city img {
+    margin: -30%;
+  }
+}
